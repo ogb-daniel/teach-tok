@@ -19,7 +19,6 @@ const ForYouHeader = () => {
       clearInterval(interval);
     };
   }, [count]);
-  console.log(count);
   return (
     <View style={styles.mainHeader}>
       <View style={styles.timer}>
